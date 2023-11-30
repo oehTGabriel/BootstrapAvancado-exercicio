@@ -17,6 +17,7 @@
         .carousel{
             height: 600px;
             overflow: hidden;
+            border-bottom: solid 1px black;
         }
 
         .carousel img{
@@ -26,6 +27,12 @@
         .card{
             overflow: hidden;
             height: 100%;
+            cursor: pointer;
+            transition: ease 0.3s;
+        }
+
+        .card:hover{
+            transform: scale(1.1);
         }
 
         .card img{
